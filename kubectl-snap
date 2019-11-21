@@ -10,6 +10,8 @@ function help() {
     echo ""
     echo "Options:"
     echo "  -n <namespace> Namespace (optional)"
+    echo "  -a             All namespaces"
+    echo "  -f             Don't prompt a confirmation before deleting pods"
     echo "  -h             Show this message"
     echo "Example:"
     echo "...."
